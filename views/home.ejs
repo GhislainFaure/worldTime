@@ -1,0 +1,14 @@
+<%- include('./partials/header.ejs') %>
+<header>
+  <h1>Liste des grandes capitales du monde</h1>
+</header>
+<main>
+  <ul>
+    <% for(const city of locals.capitalCities){ %>
+    <li>
+      <a href="/city/<%= city.name %>"><%= city.name %></a>
+    </li>
+    <% } %>
+  </ul>
+</main>
+<%- include('./partials/footer.ejs') %>

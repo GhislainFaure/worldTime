@@ -1,0 +1,26 @@
+{
+  "name": "worldtime",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhislainFaure/worldTime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhislainFaure/worldTime/issues"
+  },
+  "homepage": "https://github.com/GhislainFaure/worldTime#readme",
+  "description": "",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "path": "^0.12.7",
+    "timezone": "^1.0.23"
+  }
+}
