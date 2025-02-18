@@ -3,6 +3,7 @@ const capitalCities = [
     name: "Paris",
     tz: "Europe/Paris",
   },
+
   {
     name: "Londres",
     tz: "Europe/London",
